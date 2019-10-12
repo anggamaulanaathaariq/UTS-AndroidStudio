@@ -10,11 +10,11 @@
 
     <!-- TODO: Update blank fragment layout -->
 
-    <ImageView
-        android:layout_width="298dp"
-        android:layout_height="223dp"
-        android:layout_marginTop="60dp"
-        android:src="@drawable/covernosleep" />
+<!--    <ImageView-->
+<!--        android:layout_width="298dp"-->
+<!--        android:layout_height="223dp"-->
+<!--        android:layout_marginTop="60dp"-->
+<!--        android:src="@drawable/covernosleep" />-->
 
     <SeekBar
         android:id="@+id/positionB"
@@ -44,6 +44,9 @@
         android:layout_height="30dp"
         android:background="@null"
         android:src="@drawable/play"
+        android:onClick="playBtnClick"
+        android:layout_alignTop="@+id/playBtn"
+        android:layout_alignParentEnd="true"
         />
     <LinearLayout
         android:layout_width="match_parent"
