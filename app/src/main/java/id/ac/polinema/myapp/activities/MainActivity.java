@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         remainingTimeLabel = (TextView) findViewById(R.id.remainingTimeLabel);
 
         // MediaPlayer
-        mp = MediaPlayer.create(this, R.raw.music);
+        mp = MediaPlayer.create(this, R.raw.wiz);
         mp.setLooping(true);
         mp.seekTo(0);
         mp.setVolume(0.5f, 0.5f);

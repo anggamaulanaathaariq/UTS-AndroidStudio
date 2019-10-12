@@ -4,14 +4,14 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/wiz2"
+        android:icon="@mipmap/logotg"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
 <!--        <activity android:name=".activities.ActionActivity"></activity>-->
-        <activity android:name=".activities.MainActivity" />
-        <activity android:name=".activities.NavigationActivity">
+        <activity android:name=".activities.NavigationActivity" />
+        <activity android:name=".activities.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
