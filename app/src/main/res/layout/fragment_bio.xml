@@ -6,9 +6,53 @@
     tools:context=".fragments.BioFragment">
 
     <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="20dp"
+    android:text="Taylor Gang Or Die Biography"
+    android:textColor="@color/colorPrimary"
+    android:fontFamily="sans-serif-black"/>
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/tgod" />
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:layout_height="150dp"
+        android:textSize="13dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="170dp"
+        android:text="Founded	2008
+                      \nFounder	Wiz Khalifa
+                      Distributor(s) Atlantic Records
+                      Genre	Hip hop
+                      \nCountry of origin	United States
+                      Location	Pittsburgh, Pennsylvania
+                      \n\nOfficial website	\nhttp://www.taylorgang.com"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:layout_marginTop="180dp"
+        android:textSize="13dp"
+        android:text="Taylor Gang Ent. adalah perusahaan hiburan Amerika. Ini beroperasi sebagai label rekaman independen, manajemen musik, produksi musik dan perusahaan film yang berbasis di Pittsburgh, Pennsylvania yang didirikan oleh rapper Wiz Khalifa. Label rekaman adalah rumah bagi para seniman seperti Wiz Khalifa, Berner, Tuki Carter, J.R. Donato, Kris Hollis, dan pemenang Academy Award serta mantan anggota Three 6 Mafia, Juicy J yang berperan sebagai A dan R untuk label tersebut. Sisi produksi perusahaan adalah rumah bagi Sledgren, Ricky P, Cozmo and TM88."
+        android:textColor="@color/colorPrimary"
+        android:fontFamily="sans-serif"
+        />
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="330dp"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/members" />
+
+
+
 
 </FrameLayout>
