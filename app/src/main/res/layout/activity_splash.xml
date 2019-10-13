@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBlink2"
+    tools:context=".activities.SplashActivity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        />
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="347dp"
+        android:layout_height="329dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/tagLine"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="120dp"
+        android:text="Taylor Gang"
+        android:layout_marginTop="70dp"
+        android:fontFamily="sans-serif-medium"
+        android:textColor="@color/colorPrimary"
+        android:textSize="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/logo" />
+
+    <TextView
+        android:layout_width="219dp"
+        android:layout_height="47dp"
+        android:layout_marginLeft="108dp"
+        android:layout_marginTop="450dp"
+        android:layout_marginRight="50dp"
+        android:fontFamily="sans-serif"
+        android:text="Music company that makes music, \n           films, accessories, etc."
+        android:textColor="@color/colorPrimary"
+        android:textSize="13dp" />
+</FrameLayout>

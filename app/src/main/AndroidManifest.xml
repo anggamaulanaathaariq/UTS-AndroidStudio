@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/logotg"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".albumactivities.Album6"></activity>
+
+        <activity android:name=".albumactivities.Album6" />
         <activity android:name=".albumactivities.Album5" />
         <activity android:name=".albumactivities.Album4" />
         <activity android:name=".albumactivities.Album3" />
@@ -17,7 +18,9 @@
         <activity android:name=".albumactivities.Album1" />
         <activity android:name=".activities.ActionActivity" />
         <activity android:name=".activities.MainActivity" />
-        <activity android:name=".activities.NavigationActivity">
+        <activity android:name=".activities.NavigationActivity"></activity>
+        <activity android:name=".activities.SplashActivity">
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

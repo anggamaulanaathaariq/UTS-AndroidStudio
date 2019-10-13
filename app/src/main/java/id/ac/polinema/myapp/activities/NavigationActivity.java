@@ -86,6 +86,10 @@ public class NavigationActivity extends AppCompatActivity implements BottomNavig
         Intent intent = new Intent(this, Album6.class);
         startActivity(intent);
     }
+    public void wizkhalifa(View view) {
+        Intent intent = new Intent(this, ActionActivity.class);
+        startActivity(intent);
+    }
     @Override
     public void onPointerCaptureChanged ( boolean hasCapture) {
     }

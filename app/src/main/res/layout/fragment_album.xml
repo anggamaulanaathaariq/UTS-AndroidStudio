@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/colorBlink2"
     tools:context=".activities.ActionActivity">
 
     <!-- TODO: Update blank fragment layout -->
@@ -23,7 +24,7 @@
         android:layout_marginBottom="400dp"
         android:background="@drawable/album1"
         android:onClick="btnToast"
-        />
+        tools:ignore="OnClick" />
         <ImageButton
             android:layout_width="140dp"
             android:layout_height="140dp"
@@ -33,7 +34,7 @@
             android:layout_marginBottom="400dp"
             android:background="@drawable/album2"
             android:onClick="btnToast2"
-            />
+            tools:ignore="OnClick" />
 
     <ImageButton
         android:layout_width="140dp"
@@ -43,7 +44,8 @@
         android:layout_marginRight="20dp"
         android:layout_marginBottom="400dp"
         android:background="@drawable/album3"
-        android:onClick="btnToast3"/>
+        android:onClick="btnToast3"
+        tools:ignore="OnClick" />
     <ImageButton
         android:layout_width="140dp"
         android:layout_height="140dp"
@@ -53,7 +55,7 @@
         android:layout_marginBottom="400dp"
         android:background="@drawable/album4"
         android:onClick="btnToast4"
-        />
+        tools:ignore="OnClick" />
     <ImageButton
         android:layout_width="140dp"
         android:layout_height="140dp"
@@ -62,7 +64,8 @@
         android:layout_marginRight="320dp"
         android:layout_marginBottom="400dp"
         android:background="@drawable/album5"
-        android:onClick="btnToast5"/>
+        android:onClick="btnToast5"
+        tools:ignore="OnClick" />
     <ImageButton
         android:layout_width="140dp"
         android:layout_height="140dp"
@@ -71,6 +74,7 @@
         android:layout_marginRight="320dp"
         android:layout_marginBottom="400dp"
         android:background="@drawable/album6"
-        android:onClick="btnToast6"/>
+        android:onClick="btnToast6"
+        tools:ignore="OnClick" />
 
 </FrameLayout>

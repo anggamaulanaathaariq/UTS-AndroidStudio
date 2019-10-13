@@ -6,66 +6,22 @@
     android:layout_height="match_parent"
     tools:context=".activities.MainActivity"
     android:orientation="vertical"
+    android:background="@color/colorBlink2"
     android:gravity="center_horizontal">
 
     <!-- TODO: Update blank fragment layout -->
-
     <ImageView
-        android:layout_width="298dp"
-        android:layout_height="223dp"
-        android:layout_marginTop="60dp"
-        android:src="@drawable/covernosleep" />
-
-    <SeekBar
-        android:id="@+id/positionBar"
-        android:layout_width="300dp"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="30dp"/>
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
-        <TextView
-            android:id="@+id/elapsedTimeLabel"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="0:11"
-            android:layout_marginLeft="5dp"/>
-        <TextView
-            android:id="@+id/remainingTimeLabel"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="-1:49"
-            android:layout_marginLeft="240dp"/>
-    </LinearLayout>
-
+        android:layout_width="282dp"
+        android:layout_height="299dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/covergang" />
     <Button
-        android:id="@+id/playBtn"
-        android:layout_width="30dp"
-        android:layout_height="30dp"
-        android:background="@drawable/play"
-        android:onClick="onClick"
-        />
-    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:layout_marginTop="40dp"
-        android:gravity="center">
-        <ImageView
-            android:layout_width="18dp"
-            android:layout_height="18dp"
-            android:src="@drawable/sound"/>
+        android:layout_marginTop="10dp"
+        android:text="Play Music"
+        android:theme="@style/buttonstyle1"
+        android:onClick="wizkhalifa"
+        tools:ignore="OnClick" />
 
-        <SeekBar
-            android:id="@+id/volumebar"
-            android:layout_width="300dp"
-            android:layout_height="wrap_content"
-            android:max="100"
-            android:progress="50" />
-
-        <ImageView
-            android:layout_width="26dp"
-            android:layout_height="26dp"
-            android:src="@drawable/sound2" />
-    </LinearLayout>
 </LinearLayout>
