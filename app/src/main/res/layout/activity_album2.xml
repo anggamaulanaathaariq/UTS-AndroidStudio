@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".albumactivities.Album2">
+    <TextView
+        android:layout_width="110dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="150dp"
+        android:text="BEACH HOUSE 3"
+        android:fontFamily="sans-serif-black"
+        android:textColor="@color/colorPrimary"/>
+
+    <ImageView
+        android:layout_width="253dp"
+        android:layout_height="246dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/album2" />
+
+    <TextView
+        android:layout_width="411dp"
+        android:layout_height="315dp"
+        android:layout_marginTop="300dp"
+        android:text="Beach House 3 adalah album studio kedua oleh Ty Dolla Sign. Album ini dirilis pada 27 Oktober 2017, oleh Atlantic Records. Album ini berfungsi sebagai angsuran ketiga dalam seri Beach House-nya. Ini fitur penampilan tamu dari Pharrell Williams, Lil Wayne, Tory Lanez, The-Dream, YG, Future, Swae Lee, Wiz Khalifa, Damian Marley dan Lauren Jauregui, antara lain. Produksi album ditangani oleh Mike Will Made It, DJ Mustard, Skrillex, Mike Dean, Apex Martin, MariiBeatz, Dun Deal dan James Royo, antara lain.
+
+Beach House 3 didukung oleh empat single resmi: Love U Better, So Am I, Ex dan Pineapple. Album ini memetakan di nomor 11 di US Billboard 200, dan menerima ulasan positif dari para kritikus."
+        android:textColor="@color/colorPrimary" />
+
+</FrameLayout>

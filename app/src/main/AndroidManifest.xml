@@ -6,12 +6,16 @@
         android:allowBackup="true"
         android:icon="@mipmap/logotg"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@mipmap/logotg"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-<!--        <activity android:name=".activities.ActionActivity"></activity>-->
-        <activity android:name=".activities.NavigationActivity" />
-        <activity android:name=".activities.MainActivity">
+        <activity android:name=".albumactivities.Album4"></activity>
+        <activity android:name=".albumactivities.Album3" />
+        <activity android:name=".albumactivities.Album2" />
+        <activity android:name=".albumactivities.Album1" />
+        <activity android:name=".activities.ActionActivity" />
+        <activity android:name=".activities.MainActivity" />
+        <activity android:name=".activities.NavigationActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

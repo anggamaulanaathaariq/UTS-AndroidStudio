@@ -38,11 +38,11 @@
             android:layout_marginLeft="240dp"/>
     </LinearLayout>
 
-    <ImageButton
+    <Button
         android:id="@+id/playBtn"
         android:layout_width="30dp"
         android:layout_height="30dp"
-        android:src="@drawable/play"
+        android:background="@drawable/play"
         android:onClick="onClick"
         />
     <LinearLayout

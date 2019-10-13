@@ -3,12 +3,74 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".fragments.AlbumFragment">
+    tools:context=".activities.ActionActivity">
 
     <!-- TODO: Update blank fragment layout -->
     <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:text="Album TGOD"
+        android:textColor="@color/colorPrimary"
+        android:fontFamily="sans-serif-black"/>
+
+    <ImageButton
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="400dp"
+        android:background="@drawable/album1"
+        android:onClick="btnToast"
+        />
+        <ImageButton
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:layout_marginLeft="230dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="400dp"
+            android:background="@drawable/album2"
+            android:onClick="btnToast2"
+            />
+
+    <ImageButton
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_marginLeft="230dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="400dp"
+        android:background="@drawable/album3"
+        android:onClick="btnToast3"/>
+    <ImageButton
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginRight="320dp"
+        android:layout_marginBottom="400dp"
+        android:background="@drawable/album4"
+        android:onClick="btnToast4"
+        />
+    <ImageButton
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="360dp"
+        android:layout_marginRight="320dp"
+        android:layout_marginBottom="400dp"
+        android:background="@drawable/album5"
+        android:onClick="btnToast5"/>
+    <ImageButton
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_marginLeft="230dp"
+        android:layout_marginTop="360dp"
+        android:layout_marginRight="320dp"
+        android:layout_marginBottom="400dp"
+        android:background="@drawable/album6"
+        android:onClick="btnToast6"/>
 
 </FrameLayout>
