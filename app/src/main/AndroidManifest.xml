@@ -9,7 +9,9 @@
         android:roundIcon="@mipmap/logotg"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".albumactivities.Album4"></activity>
+        <activity android:name=".albumactivities.Album6"></activity>
+        <activity android:name=".albumactivities.Album5" />
+        <activity android:name=".albumactivities.Album4" />
         <activity android:name=".albumactivities.Album3" />
         <activity android:name=".albumactivities.Album2" />
         <activity android:name=".albumactivities.Album1" />

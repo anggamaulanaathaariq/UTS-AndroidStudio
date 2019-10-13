@@ -16,6 +16,8 @@ import id.ac.polinema.myapp.albumactivities.Album1;
 import id.ac.polinema.myapp.albumactivities.Album2;
 import id.ac.polinema.myapp.albumactivities.Album3;
 import id.ac.polinema.myapp.albumactivities.Album4;
+import id.ac.polinema.myapp.albumactivities.Album5;
+import id.ac.polinema.myapp.albumactivities.Album6;
 import id.ac.polinema.myapp.fragments.AlbumFragment;
 import id.ac.polinema.myapp.fragments.MusicFragment;
 import id.ac.polinema.myapp.fragments.BioFragment;
@@ -74,6 +76,14 @@ public class NavigationActivity extends AppCompatActivity implements BottomNavig
     }
     public void btnToast4(View view) {
         Intent intent = new Intent(this, Album4.class);
+        startActivity(intent);
+    }
+    public void btnToast5(View view) {
+        Intent intent = new Intent(this, Album5.class);
+        startActivity(intent);
+    }
+    public void btnToast6(View view) {
+        Intent intent = new Intent(this, Album6.class);
         startActivity(intent);
     }
     @Override

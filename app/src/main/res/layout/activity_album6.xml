@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".albumactivities.Album2">
+    <TextView
+        android:layout_width="130dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="140dp"
+        android:text="THE BIG PESCADO"
+        android:fontFamily="sans-serif-black"
+        android:textColor="@color/colorPrimary"/>
+
+    <ImageView
+        android:layout_width="253dp"
+        android:layout_height="246dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/album6" />
+
+    <TextView
+        android:layout_width="411dp"
+        android:layout_height="325dp"
+        android:layout_marginTop="300dp"
+        android:text="Berner dan Scott Storch bekerja sama untuk 'The Big Pescado.'\n\nBerner Taylor Gang telah mengumumkan albumnya yang akan datang The Big Pescado, yang dijadwalkan akan jatuh pada 16 Januari, memulai tahun baru dengan kepulan asap ganja. Proyek lima belas lagu diatur untuk menampilkan penampilan dari The Game, Snoop Dogg, Pusha T, Devin The Dude, Conway, Segar, Ty Dolla $, E-40, Terlalu Pendek, Teefli, Wiz Khalifa, Trey Songz, Shy Glizzy, dan Jeremih. Dan sementara itu tentu saja daftar yang terhormat, bagian yang paling menarik adalah produksi. Pescado Besar sedang ditangani secara keseluruhan oleh Scott Storch yang tak tergantikan, yang siap untuk kembalinya besar-besaran pada tahun 2018. Sementara Storch sebelumnya menjalankan permainan selama pertengahan dua-ribu, kejatuhannya dari rahmat telah didokumentasikan dengan baik. Sekarang, bagaimanapun, ia telah kembali dari lab, siap untuk membangun kembali pijakan pada permainan."
+        android:textColor="@color/colorPrimary" />
+
+</FrameLayout>
