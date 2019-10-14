@@ -29,7 +29,7 @@ public class AlbumFragment extends Fragment {
         return inflater.inflate(R.layout.fragment_album, container, false);
 
     }
-    public void btnToast(View view){
-        Toast.makeText(getActivity(),"", Toast.LENGTH_LONG).show();
-    }
+//    public void btnToast(View view){
+//        Toast.makeText(getActivity(),"", Toast.LENGTH_LONG).show();
+//    }
 }

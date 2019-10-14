@@ -1,32 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/colorBlink2"
     tools:context=".albumactivities.Album2">
+
     <TextView
+        android:id="@+id/textView7"
         android:layout_width="150dp"
         android:layout_height="20dp"
-        android:layout_marginTop="10dp"
-        android:layout_marginLeft="140dp"
-        android:text="VALIFORNICATION"
         android:fontFamily="sans-serif-black"
-        android:textColor="@color/colorPrimary"/>
+        android:text="VALIFORNICATION"
+        android:textColor="@color/colorPrimary"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
-        android:layout_width="253dp"
-        android:layout_height="246dp"
-        android:layout_marginLeft="80dp"
-        android:layout_marginTop="40dp"
-        android:background="@drawable/album5" />
+        android:id="@+id/imageView5"
+        android:layout_width="210dp"
+        android:layout_height="210dp"
+        android:background="@drawable/album5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView7" />
 
     <TextView
-        android:layout_width="411dp"
+        android:layout_width="360dp"
         android:layout_height="325dp"
-        android:layout_marginTop="300dp"
+        android:textSize="13dp"
         android:text="ValifornicationRaven Felix Peringkat Editor: HOTTTTT Penilaian Pengguna: Nilai SANGAT HOTTTTT81% (8)  Keluar sekarang, streaming album debut Raven Felix yang sudah lama ditunggu-tunggu Valifornication, yang menampilkan Wiz Khalifa, Kap G, Rich The Kid, dan banyak lagi.Sudah lama datang, tetapi setelah beberapa kemunduran dan penundaan, album debut Raven Felix lama ditunggu-tunggu Valifornication akhirnya tiba. Senang akhirnya menjatuhkan Valifornication setelah bertahun-tahun mengerjakannya dan melanjutkan perjalanan saya sendiri, saya siap untuk membuat tanda saya,katanya.\n \nDicampur dengan 12 lagu secara total, tindak lanjut dari rekaman Valifornia 2014 menampilkan penampilan tamu dari Wiz Khalifa, Chevy Woods, Rich The kid, JR Donato, DCM, Chasing Cities, dan mahasiswa baru XXL Kap G. Saat ini sedang dipimpin oleh pendengar baru Kaplan. singel Phase Me menampilkan Kap G, Bad For Me, rilis Job Done kemarin dengan Wiz Khalifa."
-        android:textColor="@color/colorPrimary" />
+        android:textColor="@color/colorPrimary"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5" />
 
-</FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

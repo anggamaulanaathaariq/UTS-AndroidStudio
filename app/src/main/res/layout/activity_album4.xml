@@ -1,32 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/colorBlink2"
     tools:context=".albumactivities.Album2">
+
     <TextView
+        android:id="@+id/textView6"
         android:layout_width="150dp"
         android:layout_height="20dp"
-        android:layout_marginTop="10dp"
-        android:layout_marginLeft="140dp"
-        android:text="HIGHLY INTOXICATED"
         android:fontFamily="sans-serif-black"
-        android:textColor="@color/colorPrimary"/>
+        android:text="HIGHLY INTOXICATED"
+        android:textColor="@color/colorPrimary"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
-        android:layout_width="224dp"
-        android:layout_height="208dp"
-        android:layout_marginLeft="100dp"
-        android:layout_marginTop="40dp"
-        android:background="@drawable/album4" />
+        android:id="@+id/imageView4"
+        android:layout_width="210dp"
+        android:layout_height="210dp"
+        android:background="@drawable/album4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6" />
 
     <TextView
-        android:layout_width="411dp"
+        android:layout_width="360dp"
         android:layout_height="325dp"
-        android:layout_marginTop="240dp"
         android:text="Juicy J menjatuhkan mixtape barunya Sangat Intoxicated pada hari Senin sebagai rilis eksklusif pada DatPiff, platform distribusi mixtape online gratis yang berspesialisasi dalam musik hip-hop dan rap. Dengan nama seperti Sangat Mabuk, Mixtape baru Juicy J membawa set harapan tertentu. Dengan berpegang teguh pada mantranya tentang hidup trippy, Juicy J memberikan jendela yang keras dan berbahan bakar obat ke dalam hidupnya.\n\nAlbum ini diproduksi secara ekslusif oleh grup musik $ uicideBoy $. Pengaruh duo New Orleans pada kaset terlihat jelas, dengan bass yang dalam dan melodi yang tidak menyenangkan mengatur nada proyek dari awal. Kolaborasi ini pas, karena sebagian besar suara duo ini dibentuk oleh gaya yang dikembangkan oleh Juicy J di awal tahun 90-an. $ uicideBoy $ perpaduan unik dari perangkap horrorcore, subgenre hip-hop dengan pengaruh bertema horor dan lirik transgresif, bekerja dengan baik dengan Memphis hip-hop Juicy J yang berpasir untuk membuat rekaman yang sangat kohesif, meskipun kekurangan materi pelajaran yang cerdas ."
-        android:textColor="@color/colorPrimary" />
+        android:textColor="@color/colorPrimary"
+        android:textSize="13dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4" />
 
-</FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

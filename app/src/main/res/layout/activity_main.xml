@@ -10,18 +10,18 @@
     android:gravity="center_horizontal">
 
     <!-- TODO: Update blank fragment layout -->
-    <ImageView
-        android:layout_width="282dp"
-        android:layout_height="299dp"
-        android:layout_marginTop="50dp"
-        android:background="@drawable/covergang" />
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:text="Play Music"
-        android:theme="@style/buttonstyle1"
-        android:onClick="wizkhalifa"
-        tools:ignore="OnClick" />
+<!--    <ImageView-->
+<!--        android:layout_width="282dp"-->
+<!--        android:layout_height="299dp"-->
+<!--        android:layout_marginTop="50dp"-->
+<!--        android:background="@drawable/covergang" />-->
+<!--    <Button-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="10dp"-->
+<!--        android:text="Play Music"-->
+<!--        android:theme="@style/buttonstyle1"-->
+<!--        android:onClick="wizkhalifa"-->
+<!--        tools:ignore="OnClick" />-->
 
 </LinearLayout>

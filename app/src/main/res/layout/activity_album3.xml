@@ -1,33 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/colorBlink2"
     tools:context=".albumactivities.Album2">
+
     <TextView
+        android:id="@+id/textView5"
         android:layout_width="120dp"
         android:layout_height="20dp"
-        android:layout_marginTop="10dp"
-        android:layout_marginLeft="150dp"
-        android:text="GANG SH*T ONLY"
         android:fontFamily="sans-serif-black"
-        android:textColor="@color/colorPrimary"/>
+        android:text="GANG SH*T ONLY"
+        android:textColor="@color/colorPrimary"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
-        android:layout_width="253dp"
-        android:layout_height="246dp"
-        android:layout_marginLeft="80dp"
-        android:layout_marginTop="40dp"
-        android:background="@drawable/album3" />
+        android:id="@+id/imageView3"
+        android:layout_width="210dp"
+        android:layout_height="210dp"
+        android:background="@drawable/album3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5" />
 
     <TextView
-        android:layout_width="411dp"
+        android:layout_width="360dp"
         android:layout_height="315dp"
-        android:layout_marginTop="300dp"
+        android:textSize="13dp"
         android:text="Chevy Woods mengajak Wiz Khalifa, Rich the Kid, dan lainnya untuk mixtape barunya Gang Shit Only.
 Institusi Pittsburgh dan rapper Taylor Gang Chevy Woods merilis mixtape baru bernama Gang Shit Only pagi ini. Tampaknya ini adalah sekuel dari kaset 2015 Gangland 3 dan rekaman pertamanya sejak Februari's And The Story Goes ...\n\n Track listing \n1.Gang Sh*t Only 2.Bank Of America 3.Back N Fourth 4.Forever 5.Workin My Wrist 6.Curved 7.No Love 8.Want To 9.Skinny Nigga 10.Rebound 11.Been Around 12.Did it All 13.History"
-        android:textColor="@color/colorPrimary" />
+        android:textColor="@color/colorPrimary"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
 
-</FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

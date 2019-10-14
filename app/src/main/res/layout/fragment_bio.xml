@@ -9,11 +9,13 @@
     <!-- TODO: Update blank fragment layout -->
 
     <TextView
-    android:layout_width="wrap_content"
-    android:layout_height="20dp"
-    android:text="Taylor Gang Or Die Biography"
-    android:textColor="@color/colorPrimary"
-    android:fontFamily="sans-serif-black"/>
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-black"
+        android:layout_marginLeft="50dp"
+        android:text="Taylor Gang Or Die Biography"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20dp" />
 
     <TextView
         android:layout_width="150dp"
@@ -23,7 +25,7 @@
         android:background="@drawable/tgod" />
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="150dp"
+        android:layout_height="160dp"
         android:textSize="13dp"
         android:layout_marginTop="30dp"
         android:layout_marginLeft="170dp"
@@ -38,8 +40,8 @@
     <TextView
         android:id="@+id/textView"
         android:layout_width="match_parent"
-        android:layout_height="140dp"
-        android:layout_marginTop="180dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="190dp"
         android:textSize="13dp"
         android:text="Taylor Gang Ent. adalah perusahaan hiburan Amerika. Ini beroperasi sebagai label rekaman independen, manajemen musik, produksi musik dan perusahaan film yang berbasis di Pittsburgh, Pennsylvania yang didirikan oleh rapper Wiz Khalifa. Label rekaman adalah rumah bagi para seniman seperti Wiz Khalifa, Berner, Tuki Carter, J.R. Donato, Kris Hollis, dan pemenang Academy Award serta mantan anggota Three 6 Mafia, Juicy J yang berperan sebagai A dan R untuk label tersebut. Sisi produksi perusahaan adalah rumah bagi Sledgren, Ricky P, Cozmo and TM88."
         android:textColor="@color/colorPrimary"
@@ -48,15 +50,16 @@
 
     <TextView
         android:layout_width="150dp"
-        android:layout_height="150dp"
-        android:layout_marginTop="330dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="350dp"
         android:layout_marginLeft="10dp"
         android:background="@drawable/members"
         />
+
     <TextView
-        android:layout_width="180dp"
-        android:layout_height="150dp"
-        android:layout_marginTop="330dp"
-        android:layout_marginLeft="200dp"
-        android:background="@drawable/mebers"/>
+        android:layout_width="178dp"
+        android:layout_height="120dp"
+        android:layout_marginLeft="170dp"
+        android:layout_marginTop="350dp"
+        android:background="@drawable/mebers" />
 </FrameLayout>

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -7,74 +8,93 @@
     tools:context=".activities.ActionActivity">
 
     <!-- TODO: Update blank fragment layout -->
+
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="20dp"
-        android:layout_marginTop="10dp"
-        android:layout_marginLeft="10dp"
-        android:text="Album TGOD"
+        android:id="@+id/textView2"
+        android:layout_width="61dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Album"
         android:textColor="@color/colorPrimary"
-        android:fontFamily="sans-serif-black"/>
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <ImageButton
+        android:id="@+id/imageButton"
         android:layout_width="140dp"
         android:layout_height="140dp"
-        android:layout_marginLeft="30dp"
-        android:layout_marginTop="40dp"
-        android:layout_marginBottom="400dp"
+        android:layout_marginStart="16dp"
         android:background="@drawable/album1"
         android:onClick="btnToast"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:layout_constraintVertical_bias="0.748"
         tools:ignore="OnClick" />
-        <ImageButton
-            android:layout_width="140dp"
-            android:layout_height="140dp"
-            android:layout_marginLeft="230dp"
-            android:layout_marginTop="40dp"
-            android:layout_marginRight="20dp"
-            android:layout_marginBottom="400dp"
-            android:background="@drawable/album2"
-            android:onClick="btnToast2"
-            tools:ignore="OnClick" />
 
     <ImageButton
         android:layout_width="140dp"
         android:layout_height="140dp"
-        android:layout_marginLeft="230dp"
-        android:layout_marginTop="200dp"
-        android:layout_marginRight="20dp"
-        android:layout_marginBottom="400dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/album2"
+        android:onClick="btnToast2"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:layout_constraintVertical_bias="0.748"
+        tools:ignore="OnClick" />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="4dp"
         android:background="@drawable/album3"
         android:onClick="btnToast3"
-        tools:ignore="OnClick" />
-    <ImageButton
-        android:layout_width="140dp"
-        android:layout_height="140dp"
-        android:layout_marginLeft="30dp"
-        android:layout_marginTop="200dp"
-        android:layout_marginRight="320dp"
-        android:layout_marginBottom="400dp"
-        android:background="@drawable/album4"
-        android:onClick="btnToast4"
-        tools:ignore="OnClick" />
-    <ImageButton
-        android:layout_width="140dp"
-        android:layout_height="140dp"
-        android:layout_marginLeft="30dp"
-        android:layout_marginTop="360dp"
-        android:layout_marginRight="320dp"
-        android:layout_marginBottom="400dp"
-        android:background="@drawable/album5"
-        android:onClick="btnToast5"
-        tools:ignore="OnClick" />
-    <ImageButton
-        android:layout_width="140dp"
-        android:layout_height="140dp"
-        android:layout_marginLeft="230dp"
-        android:layout_marginTop="360dp"
-        android:layout_marginRight="320dp"
-        android:layout_marginBottom="400dp"
-        android:background="@drawable/album6"
-        android:onClick="btnToast6"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton3"
+        app:layout_constraintEnd_toEndOf="parent"
         tools:ignore="OnClick" />
 
-</FrameLayout>
+    <ImageButton
+        android:id="@+id/imageButton5"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="4dp"
+        android:background="@drawable/album4"
+        android:onClick="btnToast4"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton2"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="OnClick" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="80dp"
+        android:background="@drawable/album5"
+        android:onClick="btnToast5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="OnClick" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="84dp"
+        android:background="@drawable/album6"
+        android:onClick="btnToast6"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="OnClick" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

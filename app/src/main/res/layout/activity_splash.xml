@@ -25,6 +25,7 @@
         android:layout_height="wrap_content"
         android:fontFamily="sans-serif-medium"
         android:text="Taylor Gang"
+        android:textStyle="bold"
         android:textColor="@color/colorPrimary"
         android:textSize="30dp"
         app:layout_constraintBottom_toTopOf="@+id/logo"

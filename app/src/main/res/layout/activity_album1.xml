@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -8,27 +8,36 @@
     tools:context=".albumactivities.Album1">
 
     <TextView
+        android:id="@+id/textView3"
         android:layout_width="60dp"
         android:layout_height="20dp"
-        android:layout_marginTop="10dp"
-        android:layout_marginLeft="170dp"
-        android:text="O.N.I.F.C"
         android:fontFamily="sans-serif-black"
-        android:textColor="@color/colorPrimary"/>
+        android:text="O.N.I.F.C"
+        android:textColor="@color/colorPrimary"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
-        android:layout_width="253dp"
-        android:layout_height="246dp"
-        android:layout_marginLeft="80dp"
-        android:layout_marginTop="40dp"
-        android:background="@drawable/album1" />
+        android:id="@+id/imageView"
+        android:layout_width="210dp"
+        android:layout_height="210dp"
+        android:background="@drawable/album1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
 
     <TextView
-        android:layout_width="411dp"
-        android:layout_height="315dp"
-        android:layout_marginTop="300dp"
-        android:text="O.N.I.F.C. adalah album studio keempat oleh rapper Amerika Wiz Khalifa. Album ini dirilis pada 4 Desember 2012 oleh Atlantic Records dan Rostrum Records. [1] Judul album ini terinspirasi oleh album H.N.I.C. oleh Prodigy dari Mobb Deep, dan merupakan inisialisme untuk Only Ni - a In First Class. [2] Setelah dirilis, O.N.I.F.C. menerima ulasan yang umumnya beragam dari para kritikus musik kontemporer. Album debut di nomor dua di US Billboard 200 menjual 148.000 kopi di minggu pertama. \n Wiz Khalifa mengumumkan pada tanggal 11 April 2012 bahwa tanggal rilis album akan pada tanggal 28 Agustus. Namun album ini didorong kembali ke 18 September 2012. [13] Pada tanggal 5 September 2012, album didorong kembali tanpa tanggal rilis.\n\n Track listing \n1.Intro 2.Paperbond 3.Bluffin 4.Let It Go 5.The Bluff 6.WorkHardPlayHard 7.GotEverything 8.Fall Asleep 9.Time \n10.it's nothin 11.Rise Above 12.Initiation 13.Up in it 14.No limit 15.The Plan 16.Remember You 17.Medicated"
-        android:textColor="@color/colorPrimary" />
+        android:layout_width="360dp"
+        android:layout_height="319dp"
+        android:text="O.N.I.F.C. adalah album studio keempat oleh rapper Amerika Wiz Khalifa. Album ini dirilis pada 4 Desember 2012 oleh Atlantic Records dan Rostrum Records. [1] Judul album ini terinspirasi oleh album H.N.I.C. oleh Prodigy dari Mobb Deep, dan merupakan inisialisme untuk Only Ni - a In First Class. [2] Setelah dirilis, O.N.I.F.C. menerima ulasan yang umumnya beragam dari para kritikus musik kontemporer. Album debut di nomor dua di US Billboard 200 menjual 148.000 kopi di minggu pertama. \nWiz Khalifa mengumumkan pada tanggal 11 April 2012 bahwa tanggal rilis album akan pada tanggal 28 Agustus. Namun album ini didorong kembali ke 18 September 2012. [13] Pada tanggal 5 September 2012, album didorong kembali tanpa tanggal rilis.\n\nTrack listing \n1.Intro 2.Paperbond 3.Bluffin 4.Let It Go 5.The Bluff 6.WorkHardPlayHard 7.GotEverything 8.Fall Asleep 9.Time \n10.it's nothin 11.Rise Above 12.Initiation 13.Up in it 14.No limit 15.The Plan 16.Remember You 17.Medicated"
+        android:textColor="@color/colorPrimary"
+        android:textSize="13dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
 
-</FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

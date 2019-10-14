@@ -1,34 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/colorBlink2"
     tools:context=".albumactivities.Album2">
+
     <TextView
+        android:id="@+id/textView4"
         android:layout_width="110dp"
         android:layout_height="20dp"
-        android:layout_marginTop="10dp"
-        android:layout_marginLeft="150dp"
-        android:text="BEACH HOUSE 3"
         android:fontFamily="sans-serif-black"
-        android:textColor="@color/colorPrimary"/>
+        android:text="BEACH HOUSE 3"
+        android:textColor="@color/colorPrimary"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
-        android:layout_width="253dp"
-        android:layout_height="246dp"
-        android:layout_marginLeft="80dp"
-        android:layout_marginTop="40dp"
-        android:background="@drawable/album2" />
+        android:id="@+id/imageView2"
+        android:layout_width="210dp"
+        android:layout_height="210dp"
+        android:background="@drawable/album2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
 
     <TextView
-        android:layout_width="411dp"
+        android:layout_width="360dp"
         android:layout_height="315dp"
-        android:layout_marginTop="300dp"
         android:text="Beach House 3 adalah album studio kedua oleh Ty Dolla Sign. Album ini dirilis pada 27 Oktober 2017, oleh Atlantic Records. Album ini berfungsi sebagai angsuran ketiga dalam seri Beach House-nya. Ini fitur penampilan tamu dari Pharrell Williams, Lil Wayne, Tory Lanez, The-Dream, YG, Future, Swae Lee, Wiz Khalifa, Damian Marley dan Lauren Jauregui, antara lain. Produksi album ditangani oleh Mike Will Made It, DJ Mustard, Skrillex, Mike Dean, Apex Martin, MariiBeatz, Dun Deal dan James Royo, antara lain.
 
 Beach House 3 didukung oleh empat single resmi: Love U Better, So Am I, Ex dan Pineapple. Album ini memetakan di nomor 11 di US Billboard 200, dan menerima ulasan positif dari para kritikus."
-        android:textColor="@color/colorPrimary" />
+        android:textColor="@color/colorPrimary"
+        android:textSize="13dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
 
-</FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
