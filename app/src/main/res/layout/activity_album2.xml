@@ -7,6 +7,14 @@
     android:background="@color/colorBlink2"
     tools:context=".albumactivities.Album2">
 
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
     <TextView
         android:id="@+id/textView4"
         android:layout_width="110dp"
@@ -58,5 +66,7 @@ Beach House 3 didukung oleh empat single resmi: Love U Better, So Am I, Ex dan P
         android:textSize="10dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView10" />
+    </LinearLayout>
+    </ScrollView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

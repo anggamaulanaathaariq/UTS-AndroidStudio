@@ -7,6 +7,14 @@
     android:background="@color/colorBlink2"
     tools:context=".albumactivities.Album2">
 
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
     <TextView
         android:id="@+id/textView8"
         android:layout_width="130dp"
@@ -27,15 +35,15 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView8" />
 
-    <TextView
-        android:id="@+id/textView15"
-        android:layout_width="358dp"
-        android:layout_height="298dp"
-        android:text="Berner dan Scott Storch bekerja sama untuk 'The Big Pescado.'\n\nBerner Taylor Gang telah mengumumkan albumnya yang akan datang The Big Pescado, yang dijadwalkan akan jatuh pada 16 Januari, memulai tahun baru dengan kepulan asap ganja. Proyek lima belas lagu diatur untuk menampilkan penampilan dari The Game, Snoop Dogg, Pusha T, Devin The Dude, Conway, Segar, Ty Dolla $, E-40, Terlalu Pendek, Teefli, Wiz Khalifa, Trey Songz, Shy Glizzy, dan Jeremih. Dan sementara itu tentu saja daftar yang terhormat, bagian yang paling menarik adalah produksi. Pescado Besar sedang ditangani secara keseluruhan oleh Scott Storch yang tak tergantikan, yang siap untuk kembalinya besar-besaran pada tahun 2018. Sementara Storch sebelumnya menjalankan permainan selama pertengahan dua-ribu, kejatuhannya dari rahmat telah didokumentasikan dengan baik. Sekarang, bagaimanapun, ia telah kembali dari lab, siap untuk membangun kembali pijakan pada permainan."
-        android:textColor="@color/colorPrimary"
-        android:textSize="13dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView6" />
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="match_parent"
+            android:layout_height="354dp"
+            android:text="Berner dan Scott Storch bekerja sama untuk 'The Big Pescado.'\n\nBerner Taylor Gang telah mengumumkan albumnya yang akan datang The Big Pescado, yang dijadwalkan akan jatuh pada 16 Januari, memulai tahun baru dengan kepulan asap ganja. Proyek lima belas lagu diatur untuk menampilkan penampilan dari The Game, Snoop Dogg, Pusha T, Devin The Dude, Conway, Segar, Ty Dolla $, E-40, Terlalu Pendek, Teefli, Wiz Khalifa, Trey Songz, Shy Glizzy, dan Jeremih. Dan sementara itu tentu saja daftar yang terhormat, bagian yang paling menarik adalah produksi. Pescado Besar sedang ditangani secara keseluruhan oleh Scott Storch yang tak tergantikan, yang siap untuk kembalinya besar-besaran pada tahun 2018. Sementara Storch sebelumnya menjalankan permainan selama pertengahan dua-ribu, kejatuhannya dari rahmat telah didokumentasikan dengan baik. Sekarang, bagaimanapun, ia telah kembali dari lab, siap untuk membangun kembali pijakan pada permainan."
+            android:textColor="@color/colorPrimary"
+            android:textSize="13dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView6" />
 
     <TextView
         android:id="@+id/textView10"
@@ -55,6 +63,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView10" />
 
+    </LinearLayout>
+    </ScrollView>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

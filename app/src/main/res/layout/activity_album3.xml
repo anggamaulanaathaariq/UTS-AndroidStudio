@@ -6,6 +6,14 @@
     android:layout_height="match_parent"
     android:background="@color/colorBlink2"
     tools:context=".albumactivities.Album2">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
 
     <TextView
         android:id="@+id/textView5"
@@ -27,16 +35,16 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView5" />
 
-    <TextView
-        android:id="@+id/textView12"
-        android:layout_width="360dp"
-        android:layout_height="315dp"
-        android:text="Chevy Woods mengajak Wiz Khalifa, Rich the Kid, dan lainnya untuk mixtape barunya Gang Shit Only.
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="201dp"
+                android:text="Chevy Woods mengajak Wiz Khalifa, Rich the Kid, dan lainnya untuk mixtape barunya Gang Shit Only.
 Institusi Pittsburgh dan rapper Taylor Gang Chevy Woods merilis mixtape baru bernama Gang Shit Only pagi ini. Tampaknya ini adalah sekuel dari kaset 2015 Gangland 3 dan rekaman pertamanya sejak Februari's And The Story Goes ...\n\nTrack listing \n1.Gang Sh*t Only 2.Bank Of America 3.Back N Fourth 4.Forever 5.Workin My Wrist 6.Curved 7.No Love 8.Want To 9.Skinny Nigga 10.Rebound 11.Been Around 12.Did it All 13.History"
-        android:textColor="@color/colorPrimary"
-        android:textSize="13dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+                android:textColor="@color/colorPrimary"
+                android:textSize="13dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView3" />
 
     <TextView
         android:id="@+id/textView10"
@@ -55,6 +63,8 @@ Institusi Pittsburgh dan rapper Taylor Gang Chevy Woods merilis mixtape baru ber
         android:textSize="10dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView10" />
+</LinearLayout>
+    </ScrollView>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
