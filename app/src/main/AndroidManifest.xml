@@ -17,8 +17,8 @@
         <activity android:name=".albumactivities.Album2" />
         <activity android:name=".albumactivities.Album1" />
         <activity android:name=".activities.ActionActivity" />
-        <activity android:name=".activities.MainActivity" />
-        <activity android:name=".activities.NavigationActivity"></activity>
+        <activity android:name=".activities.NavigationActivity" />
+        <activity android:name=".activities.MainActivity"></activity>
         <activity android:name=".activities.SplashActivity">
 
             <intent-filter>

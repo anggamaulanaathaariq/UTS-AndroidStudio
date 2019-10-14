@@ -20,8 +20,8 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="210dp"
-        android:layout_height="210dp"
+        android:layout_width="190dp"
+        android:layout_height="190dp"
         android:background="@drawable/album1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
@@ -29,8 +29,9 @@
         app:layout_constraintTop_toBottomOf="@+id/textView3" />
 
     <TextView
+        android:id="@+id/textView9"
         android:layout_width="360dp"
-        android:layout_height="319dp"
+        android:layout_height="311dp"
         android:text="O.N.I.F.C. adalah album studio keempat oleh rapper Amerika Wiz Khalifa. Album ini dirilis pada 4 Desember 2012 oleh Atlantic Records dan Rostrum Records. [1] Judul album ini terinspirasi oleh album H.N.I.C. oleh Prodigy dari Mobb Deep, dan merupakan inisialisme untuk Only Ni - a In First Class. [2] Setelah dirilis, O.N.I.F.C. menerima ulasan yang umumnya beragam dari para kritikus musik kontemporer. Album debut di nomor dua di US Billboard 200 menjual 148.000 kopi di minggu pertama. \nWiz Khalifa mengumumkan pada tanggal 11 April 2012 bahwa tanggal rilis album akan pada tanggal 28 Agustus. Namun album ini didorong kembali ke 18 September 2012. [13] Pada tanggal 5 September 2012, album didorong kembali tanpa tanggal rilis.\n\nTrack listing \n1.Intro 2.Paperbond 3.Bluffin 4.Let It Go 5.The Bluff 6.WorkHardPlayHard 7.GotEverything 8.Fall Asleep 9.Time \n10.it's nothin 11.Rise Above 12.Initiation 13.Up in it 14.No limit 15.The Plan 16.Remember You 17.Medicated"
         android:textColor="@color/colorPrimary"
         android:textSize="13dp"
@@ -38,6 +39,25 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="95dp"
+        android:layout_height="23dp"
+        android:text="Buy Album:"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+    <TextView
+        android:layout_width="387dp"
+        android:layout_height="15dp"
+        android:autoLink="all"
+        android:clickable="true"
+        android:text="https://www.amazon.com/dp/B00ADYYY50/ref=pd_mp3_als_qp_pa"
+        android:textSize="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView10" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -21,8 +21,8 @@
 
     <ImageView
         android:id="@+id/imageView2"
-        android:layout_width="210dp"
-        android:layout_height="210dp"
+        android:layout_width="190dp"
+        android:layout_height="190dp"
         android:background="@drawable/album2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
@@ -30,8 +30,9 @@
         app:layout_constraintTop_toBottomOf="@+id/textView4" />
 
     <TextView
-        android:layout_width="360dp"
-        android:layout_height="315dp"
+        android:id="@+id/textView11"
+        android:layout_width="361dp"
+        android:layout_height="211dp"
         android:text="Beach House 3 adalah album studio kedua oleh Ty Dolla Sign. Album ini dirilis pada 27 Oktober 2017, oleh Atlantic Records. Album ini berfungsi sebagai angsuran ketiga dalam seri Beach House-nya. Ini fitur penampilan tamu dari Pharrell Williams, Lil Wayne, Tory Lanez, The-Dream, YG, Future, Swae Lee, Wiz Khalifa, Damian Marley dan Lauren Jauregui, antara lain. Produksi album ditangani oleh Mike Will Made It, DJ Mustard, Skrillex, Mike Dean, Apex Martin, MariiBeatz, Dun Deal dan James Royo, antara lain.
 
 Beach House 3 didukung oleh empat single resmi: Love U Better, So Am I, Ex dan Pineapple. Album ini memetakan di nomor 11 di US Billboard 200, dan menerima ulasan positif dari para kritikus."
@@ -39,5 +40,23 @@ Beach House 3 didukung oleh empat single resmi: Love U Better, So Am I, Ex dan P
         android:textSize="13dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="95dp"
+        android:layout_height="23dp"
+        android:text="Buy Album:"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView11" />
+
+    <TextView
+        android:layout_width="387dp"
+        android:layout_height="15dp"
+        android:autoLink="all"
+        android:clickable="true"
+        android:text="https://www.amazon.com/dp/B075NWG5DN/ref=pd_mp3_als_qp_pa"
+        android:textSize="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView10" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

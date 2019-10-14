@@ -7,4 +7,10 @@
     <color name="colorBlink2">#F8FFEA</color>
     <color name="orange">#FF9736</color>
     <color name="green">#3DFF0E</color>
+
+    <array name="array_dot_active">
+    </array>
+
+    <array name="array_dot_inactive">
+        </array>
 </resources>

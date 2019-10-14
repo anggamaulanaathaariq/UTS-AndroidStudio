@@ -20,20 +20,41 @@
 
     <ImageView
         android:id="@+id/imageView5"
-        android:layout_width="210dp"
-        android:layout_height="210dp"
+        android:layout_width="190dp"
+        android:layout_height="190dp"
         android:background="@drawable/album5"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView7" />
 
     <TextView
-        android:layout_width="360dp"
-        android:layout_height="325dp"
-        android:textSize="13dp"
+        android:id="@+id/textView14"
+        android:layout_width="361dp"
+        android:layout_height="298dp"
         android:text="ValifornicationRaven Felix Peringkat Editor: HOTTTTT Penilaian Pengguna: Nilai SANGAT HOTTTTT81% (8)  Keluar sekarang, streaming album debut Raven Felix yang sudah lama ditunggu-tunggu Valifornication, yang menampilkan Wiz Khalifa, Kap G, Rich The Kid, dan banyak lagi.Sudah lama datang, tetapi setelah beberapa kemunduran dan penundaan, album debut Raven Felix lama ditunggu-tunggu Valifornication akhirnya tiba. Senang akhirnya menjatuhkan Valifornication setelah bertahun-tahun mengerjakannya dan melanjutkan perjalanan saya sendiri, saya siap untuk membuat tanda saya,katanya.\n \nDicampur dengan 12 lagu secara total, tindak lanjut dari rekaman Valifornia 2014 menampilkan penampilan tamu dari Wiz Khalifa, Chevy Woods, Rich The kid, JR Donato, DCM, Chasing Cities, dan mahasiswa baru XXL Kap G. Saat ini sedang dipimpin oleh pendengar baru Kaplan. singel Phase Me menampilkan Kap G, Bad For Me, rilis Job Done kemarin dengan Wiz Khalifa."
         android:textColor="@color/colorPrimary"
+        android:textSize="13dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView5" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="95dp"
+        android:layout_height="23dp"
+        android:text="Buy Album:"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView14" />
+
+    <TextView
+        android:layout_width="387dp"
+        android:layout_height="15dp"
+        android:autoLink="all"
+        android:clickable="true"
+        android:text="https://www.amazon.com/Valifornication-Explicit-Raven-Felix/dp/B075NWNV31/ref=pd_rhf_se_p_img_6?_encoding=UTF8psc=1refRID=SECSKDD13RHM6XJQK56D"
+        android:textSize="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView10" />
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -20,21 +20,41 @@
 
     <ImageView
         android:id="@+id/imageView3"
-        android:layout_width="210dp"
-        android:layout_height="210dp"
+        android:layout_width="190dp"
+        android:layout_height="190dp"
         android:background="@drawable/album3"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView5" />
 
     <TextView
+        android:id="@+id/textView12"
         android:layout_width="360dp"
         android:layout_height="315dp"
-        android:textSize="13dp"
         android:text="Chevy Woods mengajak Wiz Khalifa, Rich the Kid, dan lainnya untuk mixtape barunya Gang Shit Only.
-Institusi Pittsburgh dan rapper Taylor Gang Chevy Woods merilis mixtape baru bernama Gang Shit Only pagi ini. Tampaknya ini adalah sekuel dari kaset 2015 Gangland 3 dan rekaman pertamanya sejak Februari's And The Story Goes ...\n\n Track listing \n1.Gang Sh*t Only 2.Bank Of America 3.Back N Fourth 4.Forever 5.Workin My Wrist 6.Curved 7.No Love 8.Want To 9.Skinny Nigga 10.Rebound 11.Been Around 12.Did it All 13.History"
+Institusi Pittsburgh dan rapper Taylor Gang Chevy Woods merilis mixtape baru bernama Gang Shit Only pagi ini. Tampaknya ini adalah sekuel dari kaset 2015 Gangland 3 dan rekaman pertamanya sejak Februari's And The Story Goes ...\n\nTrack listing \n1.Gang Sh*t Only 2.Bank Of America 3.Back N Fourth 4.Forever 5.Workin My Wrist 6.Curved 7.No Love 8.Want To 9.Skinny Nigga 10.Rebound 11.Been Around 12.Did it All 13.History"
         android:textColor="@color/colorPrimary"
+        android:textSize="13dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="95dp"
+        android:layout_height="23dp"
+        android:text="Buy Album:"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView12" />
+
+    <TextView
+        android:layout_width="387dp"
+        android:layout_height="15dp"
+        android:autoLink="all"
+        android:clickable="true"
+        android:text=" https://www.amazon.com/Gang-Shit-Explicit-Chevy-Woods/dp/B07YN9SXLP/ref=sr_1_fkmr0_1?keywords=Album+chewy+woods+gang+shit+onlyqid=1571033865s=dmusicsr=1-1-fkmr0"
+        android:textSize="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView10" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

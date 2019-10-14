@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/colorBlink2"
-    tools:context=".fragments.BioFragment">
+    tools:context=".activities.MainActivity">
 
     <!-- TODO: Update blank fragment layout -->
 
@@ -35,7 +35,17 @@
                       Genre	Hip hop
                       \nCountry of origin	United States
                       Location	Pittsburgh, Pennsylvania
-                      \n\nOfficial website	\nhttp://www.taylorgang.com"/>
+                      \n\nOfficial website	"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:textSize="13dp"
+        android:id="@+id/text1"
+        android:autoLink="all"
+        android:clickable="true"
+        android:layout_marginTop="167dp"
+        android:layout_marginLeft="167dp"
+        android:text="@string/linktosite"/>
 
     <TextView
         android:id="@+id/textView"
